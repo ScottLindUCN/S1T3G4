@@ -1,2 +1,2 @@
-# Website-Base
-A default setup of a website with the basics in html, and css
+# Jul i zoo
+A project for multimediadesigner UCN for Aalborg zoo
