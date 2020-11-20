@@ -2,3 +2,31 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+/* Skærme min. 500px */
+@media all and (min-width: 500px) {
+    body {
+      background: tomato;
+    }
+  }
+  
+/* Skærme min. 500px og max 640px */
+@media all and (max-width: 640px) and (min-width: 501px) {
+body {
+    background: blue;
+    }
+}
+
+/* Skærme min. 641px til max 768px */
+@media all and (max-width: 768px) and (min-width: 641px) {
+body {
+    background: red;
+    }
+}
+
+/* Skærme min. 769px til 1080px og over */
+@media all and (max-width: 1080px) and (min-width: 769px), (min-width: 1080px) {
+body {
+    background: green;
+    }
+}
