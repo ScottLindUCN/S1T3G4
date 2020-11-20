@@ -1,6 +1,20 @@
+@font-face {
+    font-family: Alianza Slab;
+    src: url('assets/fonts/AlianzaSlab100.otf'), format('otf'),
+    url('assets/fonts/AlianzaSlab300.otf'), format('otf'),
+    url('assets/fonts/AlianzaSlab400.otf'), format('otf'),
+    url('assets/fonts/AlianzaSlab500.otf'), format('otf'),
+    url('assets/fonts/AlianzaSlab600.otf'), format('otf'),
+    url('assets/fonts/AlianzaSlab700.otf'), format('otf'),
+    url('assets/fonts/AlianzaSlab800.otf'), format('otf');
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
+
+    font-family: "AlianzaSlab";
 }
 
 /* Skærme min. 500px */
